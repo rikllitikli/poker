@@ -208,3 +208,61 @@ header .botton:hover{
     right: 140px;
     bottom: 63px;
 }
+.screen_three{
+    background-image: url("../img/bg_scr_three.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 96px 20px 54px;
+}
+.screen_three img{
+    max-width: 262px;
+    width: 100%;
+}
+.screen_three h2{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 35px;
+}
+.photo_car{
+    margin-bottom: 43px;
+}
+.screen_three .bg_scr_three{
+    background-image: url("../img/bg_three.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 74px 0 63px;
+}
+.screen_three p{
+    font-size: 14px;
+    color: white;
+    max-width: 320px;
+    margin: auto;
+}
+.screen_three a{
+    margin-top: 40px;
+    color: white;
+    padding: 27px 54px;
+    background-color: #E31717;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 15px;
+    border: solid 1px black;
+}
+.screen_four{
+    padding: 56px 0 126px;
+}
+.screen_four h3{
+    font-size: 24px;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.screen_four h4{
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+}
