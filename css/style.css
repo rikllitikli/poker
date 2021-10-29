@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2e2e2e;
+}
+
+header {
+    position: absolute;
+    padding: 30px 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar-light .navbar-toggler{
+    background-color: #F5F13A;
+    z-index: 80;
+}
+@media (max-width: 991px) {
+    .navbar-collapse{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: black;
+        z-index: 80;
+        padding: 30px 10px;
+    }
+}
+
+header img{
+    max-width: 79px;
+    width: 100%;
+}
+header p{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-left: 18px;
+    color: white;
+    font-weight: bold;
+}
+header ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+header li{
+    position: relative;
+    left: 37px;
+    margin-left: 23px;
+    margin-bottom: 0;
+}
+@media (max-width: 991px) {
+    header li{
+        margin-bottom: 15px;
+        left: 0;
+    }
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+@media (max-width: 1200px) {
+    header li{
+        margin-left: 10px;
+    }
+}
+header li a:hover{
+    color: white;
+    text-decoration: none;
+}
+header .botton{
+    font-size: 14px;
+    padding: 10px 40px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: #E31717;
+}
+header .botton:hover{
+    background-color: white;
+    transition: 0.3s;
+    color: black;
+    font-weight: bold;
+}
+.screen_one{
+    background-image: url("../img/back_scr_one.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 225px 0 38px;
+}
+.screen_one h1{
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+.screen_one h3{
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+    margin-bottom: 51px;
+}
+.screen_one h3 span{
+    font-weight: bold;
+}
+.screen_one a{
+    color: white;
+    text-decoration: none;
+    padding: 27px 42px;
+    background-color: #E31717;
+    border: solid black 1px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+}
+
+.screen_one .car img{
+    max-width: 700px;
+    width: 100%;
+}
+.screen_one h4{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 17px;
+    margin-bottom: 4px;
+}
+.screen_one p{
+    font-size: 12px;
+    color: white;
+    line-height: 14px;
+    margin-bottom: 0;
+}
+.screen_one .worki{
+    margin-top: 80px;
+}
+.screen_one .worki img{
+    margin-right: 24px;
+}
