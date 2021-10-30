@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: #2e2e2e;
+    background-color: #222222;
 }
 
 header {
@@ -238,7 +238,14 @@ header .botton:hover{
     font-size: 14px;
     color: white;
     max-width: 320px;
-    margin: auto;
+
+}
+.screen_three .left p{
+    margin-left: 25px;
+}
+.screen_three .center p{
+    margin-right: auto;
+    margin-left: auto;
 }
 .screen_three a{
     margin-top: 40px;
@@ -265,4 +272,181 @@ header .botton:hover{
     color: white;
     font-size: 18px;
     line-height: 21px;
+}
+.screen_four .trends h5{
+    font-size: 78px;
+    font-weight: bold;
+    line-height: 92px;
+    color: #E31717;
+    margin-bottom: 0;
+}
+.screen_four .trends h6{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+.screen_four .trends{
+    margin-bottom: 62px;
+}
+.screen_four .trends p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.screen_four .left img{
+    max-width: 332px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.screen_four .center img{
+    max-width: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.screen_four .right img{
+    max-width: 320px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.screen_four .human{
+    padding: 19px 11px 36px;
+    background-color: #660000B2;
+    height: 474px;
+    border-radius: 15px;
+}
+.screen_four .human h5{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.screen_four .human h5, .screen_four .human p{
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+}
+.screen_five{
+    background-image: url("../img/bg_scr_five.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 101px;
+}
+.screen_five h2{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 90px;
+}
+.screen_five h3{
+    font-size: 20px;
+    color: white;
+    line-height: 24px;
+    margin-bottom: 87px;
+    max-width: 805px;
+}
+.screen_five .poker{
+    margin-bottom: 17px;
+}
+.screen_five .left img, .screen_five .right img{
+    max-width: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.screen_five .center img{
+    max-width: 132px;
+    margin-bottom: 22px;
+}
+.screen_five h4{
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    max-width: 175px;
+    margin: auto;
+}
+.screen_five p{
+    color: white;
+    font-size: 14px;
+    line-height: 17px;
+}
+.screen_six{
+    padding: 106px 0 119px;
+}
+.screen_six h2{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 23px;
+    font-weight: bold;
+}
+.screen_six p{
+    font-size: 18px;
+    color: white;
+    line-height: 21px;
+}
+.screen_six .title_scr_six{
+    margin-bottom: 47px;
+}
+.screen_six h3{
+    font-size: 20px;
+    color: white;
+    line-height: 25px;
+    margin-bottom: 14px;
+}
+.screen_six .scr_six_img_one{
+    margin-bottom: 84px;
+}
+.screen_six .scr_six_img_one img{
+    max-width: 346px;
+    width: 100%;
+}
+.screen_six .scr_six_img_two{
+    margin-bottom: 124px;
+}
+.screen_six .scr_six_img_three{
+    margin-bottom: 21px;
+}
+.screen_six .scr_six_img_three img{
+    max-width: 333px;
+    width: 100%;
+}
+.screen_seven {
+    background-image: url("../img/bg_scr_seven.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 55px 0 20px;
+}
+.screen_seven h2{
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+.screen_seven p{
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+}
+.screen_seven .body_scr_seven{
+    margin-top: 75px;
+}
+.screen_seven .body_scr_seven p, .body_scr_seven_two p{
+    max-width: 295px;
+}
+.screen_seven .body_scr_seven img{
+    max-width: 150px;
+    width: 100%;
+    margin-right: 54px;
+}
+.body_scr_seven_two img{
+    max-width: 104px;
+    width: 100%;
+    margin-right: 77px;
+    margin-left: 23px;
 }
