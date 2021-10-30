@@ -258,6 +258,12 @@ header .botton:hover{
     border-radius: 15px;
     border: solid 1px black;
 }
+.screen_three a:hover{
+    background-color: white;
+    transition: 0.3s;
+    color: black;
+    font-weight: bold;
+}
 .screen_four{
     padding: 56px 0 126px;
 }
@@ -449,4 +455,225 @@ header .botton:hover{
     width: 100%;
     margin-right: 77px;
     margin-left: 23px;
+}
+.screen_eit{
+    padding: 57px 0 44px;
+}
+.screen_eit h3{
+    color: #E31717;
+    font-size: 78px;
+    font-weight: bold;
+    line-height: 92px;
+    margin-bottom: 0;
+}
+.screen_eit h2{
+    color: white;
+    font-size: 24px;
+    max-width: 430px;
+    font-weight: bold;
+}
+.screen_eit h4{
+    color: white;
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 153px;
+}
+.screen_eit img{
+    max-width: 332px;
+    width: 100%;
+    margin-bottom: 29px;
+}
+.screen_eit .body_scr_eit{
+    background-color: #660000B2;
+    padding: 19px 11px;
+    border-radius: 15px;
+}
+.screen_eit h5{
+    font-size: 18px;
+    color: white;
+    line-height: 22px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.screen_eit p{
+    font-size: 18px;
+    color: white;
+}
+.screen_eit a{
+    color: white;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 27px 26px;
+    background-color: #E31717;
+    border: solid 1px black;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.screen_eit a:hover{
+    background-color: white;
+    transition: 0.3s;
+    color: black;
+    font-weight: bold;
+}
+.screen_ten{
+    padding: 57px 0 267px;
+    position: relative;
+}
+.screen_ten .bg_screen_ten{
+    background-image: url("../img/bg_screen_ten.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 263px 94px 152px;
+    background-position: center;
+}
+.screen_ten .bg_screen_ten h3{
+    color: white;
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 45px;
+}
+.screen_ten .bg_screen_ten p{
+    color: white;
+    font-size: 16px;
+}
+.screen_ten .bg_screen_ten .right p{
+    margin-bottom: 50px;
+    max-width: 268px;
+}
+.screen_ten a{
+    background-color: #E31717;
+    padding: 27px 51px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: solid 1px black;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+.screen_ten a:hover{
+    background-color: white;
+    transition: 0.3s;
+    color: black;
+    font-weight: bold;
+}
+.screen_ten .image img{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    max-width: 902px;
+    width: 100%;
+}
+.eleven{
+    padding: 40px 0 87px;
+}
+.eleven .bg_scr_eleven{
+    background-image: url("../img/bg_screen_eleven.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 15px 86px 20px 157px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1145px;
+    margin: auto;
+}
+.eleven .right_{
+    max-width: 486px;
+}
+.eleven h3{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.eleven p{
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+}
+.eleven h4{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.eleven img{
+    max-width: 153px;
+    width: 100%;
+}
+.twelve {
+    background-image: url("../img/bg_scr_twelve.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 83px 0 150px;
+}
+.twelve h3{
+    max-width: 580px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 27px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.twelve h4{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+.twelve .body_scr_twelve{
+    background-image: url("../img/bg_img_two_eleven.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 29px 0 100px;
+    margin: auto;
+    width: 100%;
+}
+.twelve p{
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 486px;
+    margin-bottom: 27px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.twelve .social{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    max-width: 340px;
+}
+.twelve .social a img:hover{
+    -webkit-box-shadow: 0px 0px 39px 12px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 0px 0px 39px 12px rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 0px 39px 12px rgba(255, 255, 255, 0.2);
+}
+footer{
+    padding: 89px 0 47px;
+}
+footer img{
+    margin-right: 20px;
+    max-width: 80px;
+    width: 100%;
+}
+footer a .logo  p{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+    text-decoration: none;
 }
