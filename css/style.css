@@ -133,18 +133,22 @@ header .botton:hover{
     font-weight: bold;
     line-height: 17px;
     margin-bottom: 4px;
+    margin-left: 24px;
 }
 .screen_one p{
     font-size: 12px;
     color: white;
     line-height: 14px;
     margin-bottom: 0;
+    max-width: 196px;
+    margin-left: 24px;
 }
 .screen_one .worki{
     margin-top: 80px;
 }
 .screen_one .worki img{
-    margin-right: 24px;
+    width: 100px;
+
 }
 .screen_two{
     padding: 84px 34px;
@@ -158,6 +162,11 @@ header .botton:hover{
     padding: 49px 112px 65px;
     position: relative;
 }
+@media (max-width: 992px) {
+    .screen_two .body_scr_two{
+        padding: 49px 20px 65px;
+    }
+}
 .screen_two h3{
     color: white;
     font-size: 24px;
@@ -169,17 +178,32 @@ header .botton:hover{
     margin-right: auto;
     line-height: 30px;
 }
+@media (max-width: 992px) {
+    .screen_two h3{
+        font-size: 19px;
+    }
+}
 .screen_two h4{
     color: white;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 36px;
 }
+@media (max-width: 992px) {
+    .screen_two h4{
+        font-size: 18px;
+    }
+}
 .screen_two .text_r{
     color: white;
     font-size: 20px;
     margin-bottom: 0;
     line-height: 24px;
+}
+@media (max-width: 992px) {
+    .screen_two .text_r{
+        font-size: 14px;
+    }
 }
 .screen_two .text_b{
     margin-bottom: 74px;
@@ -201,12 +225,25 @@ header .botton:hover{
     left: 0;
     bottom: 63px;
 }
+@media (max-width: 992px) {
+    .screen_two .img_one img{
+        position: relative;
+    }
+}
 .screen_two .img_two img{
     max-width: 196px;
     width: 100%;
     position: absolute;
     right: 140px;
     bottom: 63px;
+}
+@media (max-width: 992px) {
+    .screen_two .img_two img{
+        position: relative;
+        bottom: 0;
+        left: 0;
+        max-width: 100%;
+    }
 }
 .screen_three{
     background-image: url("../img/bg_scr_three.png");
@@ -223,6 +260,11 @@ header .botton:hover{
     font-size: 28px;
     font-weight: bold;
     line-height: 35px;
+}
+@media (max-width: 992px) {
+    .screen_three h2{
+        font-size: 18px;
+    }
 }
 .photo_car{
     margin-bottom: 43px;
@@ -242,6 +284,11 @@ header .botton:hover{
 }
 .screen_three .left p{
     margin-left: 25px;
+}
+@media (max-width: 992px) {
+    .screen_three .left p{
+        margin-left: 0;
+    }
 }
 .screen_three .center p{
     margin-right: auto;
@@ -266,6 +313,11 @@ header .botton:hover{
 }
 .screen_four{
     padding: 56px 0 126px;
+}
+@media (max-width: 992px) {
+    .screen_four{
+        padding: 56px 0 0px;
+    }
 }
 .screen_four h3{
     font-size: 24px;
@@ -328,6 +380,11 @@ header .botton:hover{
     height: 474px;
     border-radius: 15px;
 }
+@media (max-width: 992px) {
+    .screen_four .human{
+        height: 100%;
+    }
+}
 .screen_four .human h5{
     margin-bottom: 20px;
     font-weight: bold;
@@ -350,12 +407,22 @@ header .botton:hover{
     color: white;
     margin-bottom: 90px;
 }
+@media (max-width: 992px) {
+    .screen_five h2{
+        margin-bottom: 40px;
+    }
+}
 .screen_five h3{
     font-size: 20px;
     color: white;
     line-height: 24px;
     margin-bottom: 87px;
     max-width: 805px;
+}
+@media (max-width: 992px) {
+    .screen_five h3{
+        padding-left: 30px;
+    }
 }
 .screen_five .poker{
     margin-bottom: 17px;
@@ -384,6 +451,11 @@ header .botton:hover{
 }
 .screen_six{
     padding: 106px 0 119px;
+}
+@media (max-width: 992px) {
+    .screen_six{
+        padding: 0 0 119px;
+    }
 }
 .screen_six h2{
     color: white;
