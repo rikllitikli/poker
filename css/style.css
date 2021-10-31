@@ -439,7 +439,8 @@ header .botton:hover{
 }
 @media (max-width: 992px) {
     .screen_five h3{
-        padding-left: 30px;
+        padding-left: 15px;
+        padding-right: 10px;
     }
 }
 .screen_five .poker{
