@@ -135,7 +135,12 @@ header .botton:hover{
     line-height: 17px;
     font-weight: bold;
 }
-
+.screen_one a:hover{
+    background-color: white;
+    transition: 0.3s;
+    color: black;
+    font-weight: bold;
+}
 .screen_one .car img{
     max-width: 700px;
     width: 100%;
