@@ -16,8 +16,11 @@ header {
     margin-right: auto;
 }
 .navbar-light .navbar-toggler{
-    background-color: #F5F13A;
+    background-color: #E31717;
     z-index: 80;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("../img/burger.png");
 }
 @media (max-width: 991px) {
     .navbar-collapse{
@@ -43,6 +46,16 @@ header p{
     margin-left: 18px;
     color: white;
     font-weight: bold;
+}
+@media (max-width: 992px) {
+    header p{
+        font-size: 18px;
+    }
+}
+@media (max-width: 320px) {
+    header p{
+        font-size: 15px;
+    }
 }
 header ul {
     list-style: none;
@@ -511,11 +524,26 @@ header .botton:hover{
     font-size: 18px;
     line-height: 21px;
 }
+@media (max-width: 992px) {
+    .screen_seven p{
+        font-size: 12px;
+    }
+}
 .screen_seven .body_scr_seven{
     margin-top: 75px;
 }
+@media (max-width: 992px) {
+    .screen_seven .body_scr_seven{
+        margin-top: 0;
+    }
+}
 .screen_seven .body_scr_seven p, .body_scr_seven_two p{
     max-width: 295px;
+}
+@media (max-width: 922px) {
+    .screen_seven .body_scr_seven p, .body_scr_seven_two p{
+        margin-left: 10px;
+    }
 }
 .screen_seven .body_scr_seven img{
     max-width: 150px;
@@ -527,6 +555,11 @@ header .botton:hover{
     width: 100%;
     margin-right: 77px;
     margin-left: 23px;
+}
+@media (max-width: 992px) {
+    .body_scr_seven_two img{
+        margin-left: 0;
+    }
 }
 .screen_eit{
     padding: 57px 0 44px;
@@ -600,12 +633,23 @@ header .botton:hover{
     padding: 263px 94px 152px;
     background-position: center;
 }
+@media (max-width: 992px) {
+    .screen_ten .bg_screen_ten{
+        padding: 80px 15px 152px;
+    }
+}
 .screen_ten .bg_screen_ten h3{
     color: white;
     font-size: 23px;
     line-height: 30px;
     font-weight: bold;
     margin-bottom: 45px;
+}
+@media (max-width: 992px) {
+    .screen_ten .bg_screen_ten h3{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
 }
 .screen_ten .bg_screen_ten p{
     color: white;
@@ -614,6 +658,11 @@ header .botton:hover{
 .screen_ten .bg_screen_ten .right p{
     margin-bottom: 50px;
     max-width: 268px;
+}
+@media (max-width: 992px) {
+    .screen_ten .bg_screen_ten .right p{
+        margin-bottom: 18px;
+    }
 }
 .screen_ten a{
     background-color: #E31717;
@@ -653,6 +702,12 @@ header .botton:hover{
     max-width: 1145px;
     margin: auto;
 }
+@media (max-width: 992px) {
+    .eleven .bg_scr_eleven{
+        display: block;
+        padding: 15px 25px 20px 25px;
+    }
+}
 .eleven .right_{
     max-width: 486px;
 }
@@ -676,6 +731,11 @@ header .botton:hover{
 .eleven img{
     max-width: 153px;
     width: 100%;
+}
+@media (max-width: 992px) {
+    .eleven img{
+        margin-bottom: 30px;
+    }
 }
 .twelve {
     background-image: url("../img/bg_scr_twelve.png");
